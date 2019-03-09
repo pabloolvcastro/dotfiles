@@ -33,3 +33,7 @@ tags
 .history
 
 # End of https://www.gitignore.io/api/vim,visualstudiocode
+
+# Custom gitignores
+dbeaver-ce_latest_amd64.deb
+install
