@@ -5,7 +5,7 @@ apt install -y vim guake curl
 
 snap install --no-wait chromium 
 snap install --no-wait --classic go 
-snap install --no-wait --classic --edge intellij-idea-community
+snap install --no-wait --classic intellij-idea-ultimate
 snap install --no-wait --classic vscode
 
 rsync -ar ./autostart ~/.config --exclude=install.sh
