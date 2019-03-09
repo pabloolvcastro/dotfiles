@@ -2,6 +2,6 @@
 
 #Run postgres
 if [[ ! "$(docker ps -a | grep postgres)" ]]; then 
-	docker run --name postgres -e POSTGRES_PASSWORD=postgres -d postgres:alpine 
+	docker run --name postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -d postgres:alpine 
 fi
 
