@@ -18,3 +18,4 @@ echo "oracle-java11-installer shared/accepted-oracle-license-v1-1 seen true"    
 
 apt -qq install -y oracle-java8-installer
 
+apt -qq install -y maven
