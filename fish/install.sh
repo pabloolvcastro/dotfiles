@@ -2,10 +2,10 @@
 
 # Install fish shell
 printf "\033[0;32m Installing Fish shell \033[0m \n"
-apt -qq update
-apt -qq install -y keychain fish
+sudo apt -qq update
+sudo apt -qq install -y keychain fish
 
-./scripts/update_fish.sh
+#./scripts/update_fish.sh
 
 chsh -s `which fish`
 echo `which fish` | sudo tee -a /etc/shells

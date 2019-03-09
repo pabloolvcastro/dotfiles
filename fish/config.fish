@@ -4,3 +4,4 @@ eval (keychain --eval --agents ssh -Q --quiet id_rsa --nogui)
 
 set -gx EDITOR vim
 set -x -U GOPATH $HOME/code/
+set -x -U GOBIN $HOME/code/bin
