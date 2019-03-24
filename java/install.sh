@@ -2,8 +2,9 @@
 
 printf "\033[0;32m Installing Java 11 \033[0m \n"
 
-# Add java ppa for java 11
-sudo add-apt-repository -y ppa:linuxuprising/java ppa:webupd8team/java
+# Add java ppa for java
+sudo add-apt-repository -y ppa:linuxuprising/java 
+sudo add-apt-repository -y ppa:webupd8team/java
 sudo apt -qq update -y
 
 # Install 11 java
