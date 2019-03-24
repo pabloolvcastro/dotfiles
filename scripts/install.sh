@@ -8,6 +8,7 @@ sudo snap install --no-wait chromium
 sudo snap install --no-wait --classic go
 sudo snap install --no-wait --classic intellij-idea-ultimate
 sudo snap install --no-wait --classic vscode
+sudo snap install --no-wait --classic slack
 
 rsync -ar ./autostart ~/.config --exclude=install.sh
 
@@ -20,3 +21,6 @@ cd "$(dirname "$0")"/..
 for file in $(find .. -type d \( -name "scripts" \) -prune -o -type f -name "install.sh" -print); do
 	sh -c $file;
 done
+
+# Cleaning everinthg up
+sudo apt autoremove
