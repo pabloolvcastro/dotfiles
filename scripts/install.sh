@@ -2,7 +2,7 @@
 
 sudo apt -qq update -y
 sudo apt -qq upgrade -y
-sudo apt install -y vim guake curl
+sudo apt install -y vim guake curl openssh-client make
 
 sudo snap install --no-wait chromium
 sudo snap install --no-wait --classic go
